@@ -137,15 +137,16 @@ body {
 }
 
 .preview-big img {
-    width: 50vw;
+    width: 20vw;
     height: auto;
     object-fit: contain;
+    margin-right: 20vw;
 }
 
 .cont-preview-grid {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh;
     gap: 2vw;
     justify-content: center;
 }
@@ -162,10 +163,10 @@ body {
 
 .grid-image:hover+.grid-image-big {
     position: absolute;
-    left: 16vw;
-    top: 80%;
+    left: 40vw;
+    top: 40%;
     display: block;
-    width: 50vw;
+    width: 20vw;
     height: auto;
 }
 
@@ -183,6 +184,10 @@ body {
     flex-direction: row;
     justify-content: center;
     margin-top: 10vh;
+}
+
+.features-specs h2 {
+    margin-left: 5vw;
 }
 
 .purchase {
@@ -284,5 +289,20 @@ button:hover {
     #dropdown-bass {
         right: 0;
     }
+
+    .grid-image {
+        width: 20vw;
+    }
+
+    .grid-image:hover {
+        scale: 1.2;
+    }
+
+    .grid-image:hover+.grid-image-big {
+        left: 40vw;
+        top: 37%;
+        width: 20vw;
+    }
+    
 
 }

@@ -102,7 +102,6 @@ body {
 
 .dropdown li ul.dropdown {
     min-width: 100%;
-    /* Set width of the dropdown */
     background: #f2f2f2;
     display: flex;
     position: absolute;
@@ -370,4 +369,16 @@ body {
     #dropdown-bass {
         right: 0;
     }
+
+    .hero-blur-bot {
+        height: 5vh;
+        background: linear-gradient(to bottom, #ffffff00, #E0CCB9)
+    }
+
+    .hero-blur-top {
+        height: 5vh;
+        background: linear-gradient(to top, #ffffff00, #E8E1DB)
+
+    }
+
 }
